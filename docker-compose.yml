@@ -23,7 +23,7 @@ services:
       MYSQL_DATABASE: exampledb
       MYSQL_USER: exampleuser
       MYSQL_PASSWORD: examplepass
-      MYSQL_RANDOM_ROOT_PASSWORD: 1 # removed quotes here
+      MYSQL_RANDOM_ROOT_PASSWORD: sai123
     volumes:
       - db:/var/lib/mysql
     expose:
